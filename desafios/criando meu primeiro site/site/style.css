@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+    --cor-comum: rgb(236, 236, 236);
+}
+
+header h1{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(151, 13, 13) -2px 3px 1px; 
+}
+
+header {
+    background-image:url(imagens/nazare2.jpg);
+    background-attachment: fixed;
+    padding: 30px 10px 10px 10px;
+
+}
+
+nav{
+    margin-top: 30px;
+}
+
+nav a{
+   text-decoration: none;
+   color: rgba(255, 0, 0, 0.966);
+   font-family: 'poppins';
+   font-size: 20px;
+   text-shadow: rgb(151, 13, 13) -1px 2px 1px;
+   background-color: rgba(255, 255, 255, 0.055);
+   padding: 3px;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.082) 2px 2px 2px;
+   transition: 0.75s;
+}
+
+nav a:hover{
+    color: rgb(245, 221, 3);
+    padding: 4px;
+    font-size: 22px;
+}
+
+main {
+    background-color: rgba(236, 202, 7, 0.836);
+    padding: 0px 10px 10px 10px;
+}
+
+article {
+   background-color: var(--cor-comum); 
+   margin: 0px 20px 20px 20px;
+   padding: 10px;
+   border-radius: 5px;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    margin-top: 10px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+ul {
+    columns: 2;
+    margin-inline: 10px;
+
+}
+ul > li{
+    text-align: auto;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'sawarabi mincho';
+}
+iframe {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 490px;
+    padding: 10px 30px;
+    background-color: rgba(139, 139, 139, 0.178);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.185) -2px 2px 2px;
+}
+img {
+    background-color: rgba(139, 139, 139, 0.178);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.185) -2px 2px 2px;
+    padding: 10px 30px;
+    margin: auto;
+    display: block;
+    width: 60%;
+}
+
