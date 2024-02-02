@@ -1,0 +1,26 @@
+body {
+    background-color: #121212;
+}
+
+div {
+    border: 3px solid black;
+    margin-bottom: 5px;
+    height: 200px;
+    width: 300px
+}
+
+.container {
+    display: flex;
+}
+
+.div1 {
+    background-color: aqua;
+}
+
+.div2 {
+    background-color: blueviolet;
+}
+
+.div3 {
+    background-color: orange;
+}
