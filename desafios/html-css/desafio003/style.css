@@ -14,24 +14,49 @@ header {
     font-size: 30px;
 }
 
-main {
-    margin: 40px;
-    font-size: 30px;
-    font-family: sans-serif;
-}
-
 p {
     font-weight: bolder;
     margin: 20px;
-    line-height: 50px;
+    line-height: 80px;
+    font-size: 40px;
+    font-family: sans-serif;
 }
 
 .semfundo{
-    width: 400px;
+    margin: 150px;
+    margin-left: 10px;
+    width: 600px;
     row-gap: 300px;
 }
 
 .background {
-    background-image: ;
+    display: flex;
+    align-items: center;
+    height: 86vh; 
+    margin: 0%;
+    
+}
+
+#background1 {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#background2 {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background > .pdefundo {
+    color: white;
+    width: 560px;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 5px;
 }
 
