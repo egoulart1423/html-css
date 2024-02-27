@@ -14,7 +14,24 @@ header {
     font-size: 30px;
 }
 
-p {
+body header p {
+    font-weight: 100;
+    margin: 15px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+body header p a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body header p a:hover {
+    text-decoration: underline;
+    color: rgb(201, 201, 201);
+}
+
+.semfundo p {
     font-weight: bolder;
     margin: 20px;
     line-height: 80px;
@@ -23,18 +40,16 @@ p {
 }
 
 .semfundo{
+    max-width: 600px;
     margin: 150px;
     margin-left: 10px;
-    width: 600px;
-    row-gap: 300px;
 }
 
 .background {
-    display: flex;
-    align-items: center;
-    height: 86vh; 
-    margin: 0%;
-    
+    height: 86vh;
+    font-size: 5vh;
+    font-weight: bolder;
+
 }
 
 #background1 {
@@ -54,9 +69,22 @@ p {
 }
 
 .background > .pdefundo {
-    color: white;
-    width: 560px;
-    background-color: rgba(0, 0, 0, 0.432);
-    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.253);
 }
 
+footer {
+    padding: 1vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
