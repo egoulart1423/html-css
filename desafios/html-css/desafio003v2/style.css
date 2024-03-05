@@ -1,5 +1,60 @@
+@charset "UTF-8";
+
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
     border: 0%;
+}
+
+body, html{
+    background-color: gray;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: auto;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 49px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    line-height: 2em;
+}
+
+section.imagem {
+    background-color: white;
+}
+
+section.imagem  p {
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    width: 400vh;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
