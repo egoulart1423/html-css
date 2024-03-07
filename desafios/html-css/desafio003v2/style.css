@@ -16,7 +16,6 @@
 }
 
 body, html{
-    background-color: gray;
     min-height: 100vh;
 }
   
@@ -41,26 +40,41 @@ header > p {
 
 section {
     line-height: 2em;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: var(--font1);
     padding-left: 5vh;
 }
 
 section.imagem {
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
     padding: 10vh 0px 10vh 4vh;
-    background-color: rgb(255, 0, 0);
     color: white;
 }
 
+section#imagem01 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+}
+
+section#imagem02 {
+    background-position: right center;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
+
 section.imagem  p {
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.301);
-    width: 350px;
+    width: 50vh;
     display: inline-block;
     padding: 5px;
 }
 
 section > pre {
     white-space: pre-line;
+    font-family: var(--font1);
 }
 
 a {
