@@ -4,11 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabela02</title>
+    <style>
+        body {
+            background-color: wheat;
+        }
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: 800;
+            border: black dashed 2px;
+        }
+        
+        td, th {
+            border: solid 2px black;
+            padding: 5px;
+        }
+
+        td {
+            color: blue;
+        }
+
+        tfoot {
+            background-color: rgb(165, 164, 164);
+            
+        }
+
+        .rank {
+            text-align: center;
+            color: black;
+        }
+
+        .num {
+            color: rgb(0, 0, 0);
+            text-align: end;
+        }
+
+        .fot {
+            color: black;
+            padding: 3px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>tabela maior</h1>
     <!-- ANOTOMIA DAS TABELAS GRANDES
         TABLE
+            capition
             THEAD
                 tr, td, th
             TBODY
@@ -18,20 +64,49 @@
         TABLE
     -->
     <table>
+        <!-- legenda/titulo -->
+        <caption>Populações das Unidades Federativas</caption>
 
         <!-- cabeçalho -->
         <thead>
-
+            <tr>
+                <th scope="col" style="width: 50px;">posição</th>
+                <th scope="col">estado</th>
+                <th scope="col">população</th>
+            </tr>
         </thead>
 
         <!-- corpo -->
         <tbody>
-
+            <tr>
+                <td class="rank">1</td>
+                <td>são paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td class="rank">2</td>
+                <td>minas gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td class="rank">3</td>
+                <td>rio de janeiro</td>
+                <td class="num">18 054 524</td>
+            </tr>
+            <tr>
+                <td class="rank">4</td>
+                <td>bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
         </tbody>
 
         <!-- pé -->
         <tfoot>
-            
+            <tr>
+                <td class="fot">sla oq</td>
+                <td class="fot">n sei</td>
+                <td class="fot">oq la</td>
+            </tr>
         </tfoot>
     </table>
 </body>
