@@ -9,6 +9,7 @@
             background-color: wheat;
         }
         table {
+            position: relative;
             border-collapse: collapse;
             width: 400px;
         }
@@ -18,18 +19,40 @@
             font-weight: 800;
             border: black dashed 2px;
         }
+
+        thead tr {
+            background-color: lavender;
+        }
         
         td, th {
             border: solid 2px black;
             padding: 5px;
         }
 
+        thead > tr {
+            position: sticky;
+            top: 0px;
+        }
+
+
+
+        /*     
+            nth-child é uma pseudo classe que serve para dar valores em elementos especificos, com base no seu elemento-pai ex: tabela. 
+            resumindo: estilizar itens de maneira pratica usando valores como 2n ou odd.  
+        */
+        tbody > tr:nth-child(2n) { /* valores para usar no nth-child: 2n,3n,4n..., 2n-1, odd/impar even/par */ 
+            background-color: rgb(207, 207, 207);
+        }
+
+
+
+
         td {
             color: blue;
         }
 
         tfoot {
-            background-color: rgb(165, 164, 164);
+            background-color: rgb(112, 112, 112);
             
         }
 
@@ -98,6 +121,138 @@
                 <td>bahia</td>
                 <td class="num">14 141 626</td>
             </tr>
+        </tr>
+        <tr>
+            <td class="rank">3</td>
+            <td>rio de janeiro</td>
+            <td class="num">18 054 524</td>
+        </tr>
+        <tr>
+            <td class="rank">4</td>
+            <td>bahia</td>
+            <td class="num">14 141 626</td>
+        </tr>
+    </tr>
+    <tr>
+        <td class="rank">3</td>
+        <td>rio de janeiro</td>
+        <td class="num">18 054 524</td>
+    </tr>
+    <tr>
+        <td class="rank">4</td>
+        <td>bahia</td>
+        <td class="num">14 141 626</td>
+    </tr>
+    </tr>
+    <tr>
+        <td class="rank">3</td>
+        <td>rio de janeiro</td>
+        <td class="num">18 054 524</td>
+    </tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
         </tbody>
 
         <!-- pé -->
