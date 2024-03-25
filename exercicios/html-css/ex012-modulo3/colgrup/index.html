@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colgrup</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: beige;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 2px solid black;
+        }
+
+        col.cnome {
+            background-color: blue;
+        }
+
+        col.cidade {
+            background-color: blueviolet;
+        }
+
+        col.csecso {
+            background-color: pink;
+        }
+
+        col.cprof {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csecso" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>caisas</caption>
+        <tr>
+            <th>nome</th>
+            <th>sexo</th>
+            <th>idade</th>
+            <th>profissão</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>f</td>
+            <td>25</td>
+            <td>puta</td>
+        </tr>
+        <tr>
+            <td>Marselão</td>
+            <td>Td dia</td>
+            <td>24hehe</td>
+            <td>desenpregado</td>
+        </tr>
+        <tr>
+            <td>gus fring</td>
+            <td>m</td>
+            <td>48</td>
+            <td>traficante</td>
+        </tr>
+        <tr>
+            <td>Alan</td>
+            <td>m</td>
+            <td>??</td>
+            <td>stremer</td>
+        </tr>
+        <tr>
+            <td>Elisa schances</td>
+            <td>vish</td>
+            <td>58</td>
+            <td>atora</td>
+        </tr>
+    </table>
+</body>
+</html>
