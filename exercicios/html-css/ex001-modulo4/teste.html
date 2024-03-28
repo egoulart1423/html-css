@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste</title>
+  <style>
+    body {
+            background-color: wheat;
+        }
+        table {
+            position: relative;
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: 800;
+            border: black dashed 2px;
+        }
+
+        thead tr {
+            background-color: lavender;
+        }
+        
+        td, th {
+            border: solid 2px black;
+            padding: 5px;
+        }
+
+        thead > tr {
+            position: sticky;
+            top: -1px;
+        }
+
+
+
+        /*     
+            nth-child é uma pseudo classe que serve para dar valores em elementos especificos, com base no seu elemento-pai ex: tabela. 
+            resumindo: estilizar itens de maneira pratica usando valores como 2n ou odd.  
+        */
+        tbody > tr:nth-child(2n) { /* valores para usar no nth-child: 2n,3n,4n..., 2n-1, odd/impar even/par */ 
+            background-color: rgb(207, 207, 207);
+        }
+
+
+
+
+        td {
+            color: blue;
+        }
+
+        tfoot {
+            background-color: rgb(112, 112, 112);
+            
+        }
+
+        .rank {
+            text-align: center;
+            color: black;
+        }
+
+        .num {
+            color: rgb(0, 0, 0);
+            text-align: end;
+        }
+
+        .fot {
+            color: black;
+            padding: 3px;
+            text-align: center;
+        }
+  </style>
+</head>
+<body>
+  <table>
+    <!-- legenda/titulo -->
+    <caption>Populações das Unidades Federativas</caption>
+
+    <!-- cabeçalho -->
+    <thead>
+        <tr>
+            <th scope="col" style="width: 50px;">posição</th>
+            <th scope="col">estado</th>
+            <th scope="col">população</th>
+        </tr>
+    </thead>
+
+    <!-- corpo -->
+    <tbody>
+        <tr>
+            <td class="rank">1</td>
+            <td>são paulo</td>
+            <td class="num">44 411 238</td>
+        </tr>
+        <tr>
+            <td class="rank">2</td>
+            <td>minas gerais</td>
+            <td class="num">20 538 718</td>
+        </tr>
+        <tr>
+            <td class="rank">3</td>
+            <td>rio de janeiro</td>
+            <td class="num">18 054 524</td>
+        </tr>
+        <tr>
+            <td class="rank">4</td>
+            <td>bahia</td>
+            <td class="num">14 141 626</td>
+        </tr>
+    </tr>
+    <tr>
+        <td class="rank">3</td>
+        <td>rio de janeiro</td>
+        <td class="num">18 054 524</td>
+    </tr>
+    <tr>
+        <td class="rank">4</td>
+        <td>bahia</td>
+        <td class="num">14 141 626</td>
+    </tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+    <td class="rank">4</td>
+    <td>bahia</td>
+    <td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+    <td class="rank">3</td>
+    <td>rio de janeiro</td>
+    <td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td>rio de janeiro</td>
+<td class="num">18 054 524</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td>bahia</td>
+<td class="num">14 141 626</td>
+</tr>
+    </tbody>
+
+    <!-- pé -->
+    <tfoot>
+        <tr>
+            <td class="fot">sla oq</td>
+            <td class="fot">n sei</td>
+            <td class="fot">oq la</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
