@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: white;
+  font-family: "Raleway";
+}
+
+header {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 10em;
+}
+
+section.semagem {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+div.imagem {
+  box-shadow: 3px 3px 9px inset rgba(0, 0, 0, 0.404);
+  height: 600px;
+  width: 70%;
+  background-image: url(imagens/cidade.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+table tbody tr:nth-child(2n) {
+  background-color: rgba(128, 128, 128, 0.288);
+}
+
+caption {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+}
+
+thead tr {
+  position: sticky;
+  top: 1-px ;
+}
+
+th, td {
+  padding: 7px;
+  border: 2px solid black;
+}
+
+section.tabela div{
+  display: flex;
+  justify-content: center;
+}
+
+section.tabela div {
+  margin-top: 40em;
+  width: 100%;
+}
+
