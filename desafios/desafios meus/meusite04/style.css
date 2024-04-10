@@ -12,27 +12,79 @@ body {
 }
 
 header {
-  font-size: 40px;
+  font-size: 4vw;
   text-align: center;
   margin-top: 3em;
   margin-bottom: 10em;
 }
 
-section.semagem {
+h1 {
+  text-align: center;
+}
+
+header > p {
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+
+h1.paralax {
+  font-size: 5em;
+  color: rgb(119, 119, 119);;
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+
+div.flex-paralax {
   display: flex;
   justify-content: center;
-  height: 500px;
+}
+
+section.semagem {
+  height: 100vh;
 }
 
 div.imagem {
-  box-shadow: 3px 3px 9px inset rgba(0, 0, 0, 0.404);
+  border-radius: 20px;
+  box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.151);
   height: 600px;
-  width: 70%;
+  min-width: 80%;
   background-image: url(imagens/cidade.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
   background-attachment: fixed;
+}
+
+section.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80%;
+  height: 600px;
+  text-align: justify;
+  line-height: 1.3em;
+  font-size: 2.2vw;
+  font-weight: 500;
+}
+
+section.texto div {
+  max-width: 700px;
+  padding: 10px;
+  background-color: rgba(207, 216, 223, 0.534);
+  border-radius: 10px;
+}
+
+section.tabela > div.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20em;
+}
+
+h1.table {
+  font-size: 5em;
+  color: rgb(119, 119, 119);;
+  margin-top: 13em;
+  margin-bottom: 5em;
 }
 
 table tbody tr:nth-child(2n) {
@@ -56,16 +108,27 @@ thead tr {
 
 th, td {
   padding: 7px;
+  border: solid 1px black;
+}
+
+h1.degrade {
+  font-size: 5em;
+  color: rgb(119, 119, 119);;
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+
+.gradient > div.flex-gradient {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.gradient .flex-gradient div {
+  width:60vw;
+  height: 40vh;
+  background-image: linear-gradient(to left, pink, yellow);
   border: 2px solid black;
 }
 
-section.tabela div{
-  display: flex;
-  justify-content: center;
-}
-
-section.tabela div {
-  margin-top: 40em;
-  width: 100%;
-}
 
